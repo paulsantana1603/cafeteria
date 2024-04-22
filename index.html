@@ -1,298 +1,193 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/estilos.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:ital,wght@0,300..800;1,300..800&display-swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
 
     <title>Cafe DulceAroma</title>
-
-    <nav>
-
-        <a href="#" id="btn-acerca-de">Acerca de</a>
-
-        <a href="#" id="btn-menu">Menú</a>
-
-        <a href="#" id="btn-galeria">Galería</a>
-
-        <a href="#" id="btn-ubicacion">Ubicación</a>
-
-        <h1>Café <span>Dulce Aroma</span></h1>
-
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
-
-
-
 </head>
 
 <body>
 
-
     <header>
-
-        <div>
-
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-menu">Menú</a>
+                <a href="#" id="btn-galeria">Galería</a>
+                <a href="#" id="btn-ubicacion">Ubicación</a>
             </nav>
             <div>
-
+                <h1>Café <span>Dulce Aroma</span></h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
             </div>
         </div>
     </header>
-
     <!--Seccion main-->
-
     <section>
-
+        <!--Sección Acerca de-->
         <section>
-
-
-            <!--Sección Acerca de-->
-
             <div>
                 <div>
-
                     <img src="imagenes/acerca-de.jpg" alt="Acerca de ">
-
                 </div>
-
                 <article>
-
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum esse quia omnis earum. Tenetur
                         minus reiciendis voluptates magni aut, error magnam doloribus, modi rem corporis dolor
-
                         blanditiis provident, nulla distinctio.</p>
 
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia dolor doloribus rem nostrum
                         laboriosam magni voluptas corporis voluptate error et sit architecto a, cumque possimus
                         reprehenderit iure placeat aut quas?</p>
-
                 </article>
-
             </div>
-
         </section>
-
         <!--./fin aacerca de-->
-
         <!--Inicio Menú-->
-
         <section class="menu">
-
             <div class="contenedor">
-
                 <h3 class="titulo" id="platillos">Menú</h3>
-                
+                <div class="contenedor-menu">
                     <div class="contenedor-menu2">
-
                         <article>
-
                             <p class="categoria">De comer</p>
-
                             <div class="platillo">
-
                                 <p class="nombre">Arroz con camarón</p>
-
                                 <p class="precio">$8.50</p>
-
-                                <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes.
-
-                                </p>
-
-                            </div>
-
-                            arroz, camarón
-
-                            <div class="platillo">
-
-                                <p class="nombre">Arroz con camarón</p>
-
-                                <p class="precio">$8.50</p>
-
                                 <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes
-
+                                    arroz, camarón
                                 </p>
-
                             </div>
-
-                            arroz, camarón
-
-                            < div class="platillo">
-
+                            <div class="platillo">
+                                <p class="nombre">Arroz con camarón</p>
+                                <p class="precio">$8.50</p>
+                                <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes
+                                    arroz, camarón
+                                </p>
+                            </div>
+                            <div class="platillo">
                                 <p class="nombre">Encebollado</p>
-
                                 <p class="precio">$3.50</p>
-
                                 <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes
-
+                                    arroz, camarón
                                 </p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Encebollado Mixto</p>
+                                <p class="precio">$8.50</p>
+                                <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes
+                                    arroz, camarón
+                                </p>
+                            </div>
+                        </article>
 
+                        <!--./ Fin de la sección comer-->
+                        <article>
+                            <p class="categoria">Bebidas</p>
+                            <div class="platillo">
+                                <p class="nombre">Jugos Naturales</p>
+                                <p class="precio">4.00</p>
+                                <p class="descripcion">Tenemnos jugos naturales,
+                                    batidos con leche
+                                </p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Colas Personales</p>
+                                <p class="precio">$1.00</p>
+                                <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes
+                                    arroz, camarón
+                                </p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Pilsener</p>
+                                <p class="precio">$3.00</p>
+                                <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes
+                                    arroz, camarón
+                                </p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Limonadas</p>
+                                <p class="precio">$2.50</p>
+                                <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes
+                                    arroz, camarón
+                                </p>
+                            </div>
+                        </article>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!--./FIn Menú-->
+        <!--Inicio Galería-->
+        <section class="galeria" id="galeria">
+            <div class="foto">
+                <img src="imagenes/1.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="imagenes/2.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="imagenes/3.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="imagenes/4.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="imagenes/5.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="imagenes/6.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="imagenes/7.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="imagenes/8.jpg" alt="">
+            </div>
+        </section>
 
-                    arroz, camarón
-
-                    <div class="platillo">
-
-                        <p class="nombre">Encebollado Mixto</p>
-
-                        <p class="precio">$8.50</p>
-
-                        <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes.
-
-                            arroz, camarón
-                        </p>
-                    </div>
-                    </article>
+        <!--Sección unbicación-->
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">Ubicación</h3>
+            </div>
+            <div class="direccion">
+                <p class="calle">E5D <br />S48-520</p><br>
+                <p class="telefono">(+593) 0992628980</p>
+                <p class="correo"> cafe@gmail.com</p>
             </div>
 
-            </article>
-
-            <!--Inicio Galeria-->
-
-            <section class="galeria" id="galeria">
-
-                <div class="foto">
-
-                    <img src="imagenes/1.jpg" alt="">
-
-                </div>
-
-                <div class="foto">
-
-                    <img src="imagenes/2.jpg" alt="">
-
-                </div>
-
-                <div class="foto">
-
-                    <img src="imagenes/3.jpg" alt="">
-
-                </div>
-
-                <div class="foto">
-
-                    <img src="imagenes/4.jpg" alt="">
-
-                </div>
-
-                <div class="foto">
-
-                    <img src="imagenes/5.jpg" alt="">
-
-                </div>
-
-                <div class="foto">
-
-                    <img src="imagenes/6.jpg" alt="">
-
-
-                </div>
-
-
-                </div>
-
-
-                </div>
-
-
-            </section>
-
-
-            <!--./FIn Menú-->
+            <div class="horarios">
+                <h4>Horarios</h4>
+                <p class="entre-semana">Lunes a Viernes <br> 7:00 - 21:00</p>
+                <p class="fin-semana">Sábados y Domingo <br> 11:00 - 23:00</p>
+            </div>
 
         </section>
-
-
         <!--./Fin contactos-->
-
         <!--inicio Mapa-->
-
-        </div>
-
-        <div class="foto">
-
-            <img src="imagenes/7.jpg" alt="">
-
-        </div>
-
-        <div class="foto">
-
-            <img src="imagenes/8.jpg" alt="">
-
-        </div>
-
-    </section>
-
-    <!--Sección unbicación-->
-
-    <section class="ubicacion" id="ubicacion">
-
-        <div class="contenedor">
-
-            <h3 class="titulo">Ubicación</h3>
-
-        </div>
-
-        <div class="direccion">
-
-            <p class="calle">ESD <br />S48-520</p><br>
-
-            <p class="telefono">(+593) 0992628980</p>
-
-            <p class="correo"> cafe@gmail.com</p>
-
-        </div>
-
-        <div class="horarios">
-
-            <h4>Horarios</h4>
-
-            <p class="entre-semana">Lunes a Viernes <br> 7:00
-
-            <p class="fin-semana">Sábados y Domingo <br> 11:00
-
-        </div>
-
-        21:00</p>
-
-        23:00</p>
         <section class="mapa">
-
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.438991306374612d-78.5340324354752713d-0.3203300542333808!2m3!1f0!2 width="
-                800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4389913063746!2d-78.53403243547527!3d-0.3203300542333808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5a33f62788089%3A0x96acd4fa1e7a9690!2sHotel!5e0!3m2!1ses-419!2sec!4v1713407097809!5m2!1ses-419!2sec"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-
         </section>
-
         <!--fin sección mapa-->
 
     </section>
-
     <!--fin seccion main-->
-
     <footer>
-
         <div class="contenedor">
-
             <div class="copyright">
-
                 <p>&COPY; Todos los derechos reservados Davitron 2024 </p>
-
             </div>
-
         </div>
-
     </footer>
 
 </body>
 
-
-</html
+</html>
